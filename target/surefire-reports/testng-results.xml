@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6188" started-at="2021-10-13T09:41:16Z" finished-at="2021-10-13T09:41:23Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="20" started-at="2021-10-13T09:41:16Z" finished-at="2021-10-13T09:41:16Z">
+      <class name="appTest.AppTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:appTest.AppTest@78b729e6]" name="loginTest" duration-ms="6" started-at="2021-10-13T09:41:16Z" description="Login with Valid Details" finished-at="2021-10-13T09:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTestWithInvalid()[pri:0, instance:appTest.AppTest@78b729e6]" name="loginTestWithInvalid" duration-ms="2" started-at="2021-10-13T09:41:16Z" description="Login with InValid Details" finished-at="2021-10-13T09:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalid -->
+      </class> <!-- appTest.AppTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="0" started-at="2021-10-13T09:41:16Z" finished-at="2021-10-13T09:41:16Z">
+      <class name="appTest.NumberComparison">
+        <test-method status="PASS" signature="intComparison()[pri:0, instance:appTest.NumberComparison@78e94dcf]" name="intComparison" duration-ms="0" started-at="2021-10-13T09:41:16Z" finished-at="2021-10-13T09:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intComparison -->
+      </class> <!-- appTest.NumberComparison -->
+    </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="6153" started-at="2021-10-13T09:41:16Z" finished-at="2021-10-13T09:41:23Z">
+      <class name="appTest.SeleniumDev">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:appTest.SeleniumDev@4278a03f]" name="beforeTest" is-config="true" duration-ms="2340" started-at="2021-10-13T09:41:16Z" finished-at="2021-10-13T09:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:appTest.SeleniumDev@4278a03f]" name="titleTest" duration-ms="1087" started-at="2021-10-13T09:41:19Z" finished-at="2021-10-13T09:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:appTest.SeleniumDev@4278a03f]" name="afterTest" is-config="true" duration-ms="2725" started-at="2021-10-13T09:41:20Z" finished-at="2021-10-13T09:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- appTest.SeleniumDev -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
+  <suite name="Suite (0)" duration-ms="1" started-at="2021-10-13T09:41:23Z" finished-at="2021-10-13T09:41:23Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1" started-at="2021-10-13T09:41:23Z" finished-at="2021-10-13T09:41:23Z">
+      <class name="appTest.AppTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:appTest.AppTest@1fe20588]" name="loginTest" duration-ms="0" started-at="2021-10-13T09:41:23Z" description="Login with Valid Details" finished-at="2021-10-13T09:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTestWithInvalid()[pri:0, instance:appTest.AppTest@1fe20588]" name="loginTestWithInvalid" duration-ms="0" started-at="2021-10-13T09:41:23Z" description="Login with InValid Details" finished-at="2021-10-13T09:41:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalid -->
+      </class> <!-- appTest.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="66" started-at="2021-10-13T07:29:40Z" finished-at="2021-10-13T07:29:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="66" started-at="2021-10-13T07:29:40Z" finished-at="2021-10-13T07:29:40Z">
+      <class name="appTest.AppTest">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:appTest.AppTest@77167fb7]" name="loginTest" duration-ms="20" started-at="2021-10-13T07:29:40Z" description="Login with Valid Details" finished-at="2021-10-13T07:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTestWithInvalid()[pri:0, instance:appTest.AppTest@77167fb7]" name="loginTestWithInvalid" duration-ms="2" started-at="2021-10-13T07:29:40Z" description="Login with InValid Details" finished-at="2021-10-13T07:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTestWithInvalid -->
+      </class> <!-- appTest.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
